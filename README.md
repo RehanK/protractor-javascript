@@ -1,7 +1,7 @@
 # protractor-javascript
 Protractor is a node.js program that acts as a webdriver which is used to write end to end tests, test that is written in Javascript to simulate user stories on a web browser
 
-Pre-requisites installation for Protractor 
+#Pre-requisites installation for Protractor 
 
 1. Install node.js
 -https://nodejs.org/en/
@@ -22,7 +22,7 @@ Pre-requisites installation for Protractor
 
 ----------------------------------------------------------------------------
 
-Running Protractor example test
+#Running Protractor example test
 
 1. start selenium server via command "webdriver-manager start"
 2. cd /usr/local/lib/node_modules/protractor/example
