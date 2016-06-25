@@ -18,7 +18,7 @@ Protractor is a node.js program that acts as a webdriver which is used to write 
 - run `java -version` to verify java installation
 
 #####4. Update webdriver manager
-- In terminal type `webdriver-manager update`
+- run `webdriver-manager update`
 
 ----------------------------------------------------------------------------
 
