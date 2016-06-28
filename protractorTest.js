@@ -1,13 +1,16 @@
 describe("Test Suite", function() {
+	
+	beforeEach(function(){
+		browser.get("http://www.thetestroom.com/jswebapp/");	
+		
+	});
 
 	it ("should be on correct page", function() {
-	    browser.get("http://www.thetestroom.com/jswebapp/");
 	    expect(browser.getCurrentUrl()).toContain("jswebapp");
 	    //expect(browser.getCurrentUrl()).toEqual("http://www.thetestroom.com/jswebapp/");
 	});
 
 	it ("should generate correct text", function() {
-	    browser.get("http://www.thetestroom.com/jswebapp/");
 	    var textMessage = "Testing 123";
 	      
 	    element(by.model("person.name")).sendKeys(textMessage);
@@ -17,7 +20,6 @@ describe("Test Suite", function() {
 	});
 
 	it ("should check the correct number of dropdown options", function() {
-	    browser.get("http://www.thetestroom.com/jswebapp/");
 	    element.(by.buttonText("CONTINUE")).click();
 	    element(by.model("animal")).$("[value='1']").click();
 	    
@@ -30,7 +32,6 @@ describe("Test Suite", function() {
 	});
 
 	it ("should check user is on the thank you page", function() {
-	    browser.get("http://www.thetestroom.com/jswebapp/");
 	    element.(by.buttonText("CONTINUE")).click();
 	    element.(by.buttonText("CONTINUE")).click();
 	    expect(browser.getCurrectUrl()).toContain("confirm");
