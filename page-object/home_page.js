@@ -8,7 +8,7 @@ var home_page = function() {
     return element(by.binding('person.name')).getText();
   };
   
-  this.continueButton = function() {
+  this.clickContinue = function() {
     element(by.buttonText('CONTINUE')).click();
   };
 
