@@ -18,6 +18,4 @@ describe("Page Object Test", function() {
 		home_page.clickContinue();
 	};
 
-
-
 });
