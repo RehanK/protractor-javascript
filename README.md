@@ -33,4 +33,18 @@ Test Successfully ran!
 ###Element Explorer
 
 1. To run element explorer `protractor --elementExplorer`
-2. `browser.get('http://www.angularjs.org')`
+2. `browser.get('http://www.way2automation.com/protractor-angularjs-practice-website.html')`
+
+###Execute Test with Multiple Browsers
+
+1. edit conf.js file
+2. replace capabilities with:
+```
+   multiCapabilities:[{
+   browserName : 'internet explorer'
+},{
+   browserName : 'chrome'
+},{
+   browserName : 'firefox'
+}],
+```
