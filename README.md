@@ -35,6 +35,9 @@ Test Successfully ran!
 1. To run element explorer `protractor --elementExplorer`
 2. `browser.get('http://www.way2automation.com/protractor-angularjs-practice-website.html')`
 
+###Browser driver
+1. IE Driver `webdriver-manager update --ie`
+
 ###Execute Test with Multiple Browsers
 
 1. edit conf.js file
