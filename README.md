@@ -33,4 +33,4 @@ Test Successfully ran!
 ###Element Explorer
 
 1. To run element explorer `protractor --elementExplorer`
-2. 
+2. `browser.get('http://www.angularjs.org')`
