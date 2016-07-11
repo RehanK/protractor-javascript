@@ -30,4 +30,7 @@ Protractor is a node.js program that acts as a webdriver which is used to write 
 
 Test Successfully ran!
 
+###Element Explorer
 
+1. To run element explorer `protractor --elementExplorer`
+2. 
