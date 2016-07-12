@@ -38,7 +38,7 @@ Test Successfully ran!
 ###Browser driver
 1. IE Driver `webdriver-manager update --ie`
 
-###Execute Test with Multiple Browsers
+###Testing on Multiple Browsers
 
 1. edit conf.js file
 2. replace capabilities with:
