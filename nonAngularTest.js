@@ -2,6 +2,7 @@ describe("Test", function(){
 
 beforeEach(function() {
       return browser.ignoreSynchronization = true;
+      browser.get('http://www.walmart.com/')
     });
     
     it("should do", function{
