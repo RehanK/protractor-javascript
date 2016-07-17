@@ -2,7 +2,7 @@ describe("Test", function(){
 
 beforeEach(function() {
       return browser.ignoreSynchronization = true;
-      browser.get('http://www.walmart.com/')
+      browser.get('http://www.walmart.com/');
     });
     
 
@@ -23,7 +23,7 @@ beforeEach(function() {
     });
     
     it("should expect", function{
-      element(by.partialLinkText('Meguiar-s-Ultimate-Liquid-Wax/16550272'));
+      expect(browser.getCurrentUrl()).toContain('16550272');
     });
     
 
