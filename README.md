@@ -51,3 +51,9 @@ Test Successfully ran!
    browserName : 'firefox'
 }],
 ```
+
+###Testing Non Angular Sites
+- ```beforeEach(function() {
+      return browser.ignoreSynchronization = true;
+      browser.get('http://www.walmart.com/');
+    });```
