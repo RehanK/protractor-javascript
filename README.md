@@ -54,7 +54,7 @@ Test Successfully ran!
 
 ###Testing Non Angular Sites
 ```
-   beforeEach(function() {
-      return browser.ignoreSynchronization = true;
-    });
+beforeEach(function() {
+   return browser.ignoreSynchronization = true;
+});
 ```
