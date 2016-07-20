@@ -53,7 +53,8 @@ Test Successfully ran!
 ```
 
 ###Testing Non Angular Sites
-- ```beforeEach(function() {
+```
+   beforeEach(function() {
       return browser.ignoreSynchronization = true;
-      browser.get('http://www.walmart.com/');
-    });```
+    });
+```
