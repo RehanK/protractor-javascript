@@ -13,6 +13,8 @@
     };
     
     var Flights = function(){
+      this.flight = element(by.css('piejs ng-binding checked'));
+      
       
       
     
