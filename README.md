@@ -5,6 +5,7 @@ Protractor is a node.js program that acts as a webdriver which is used to write 
 
 #####1. Install node.js
 - https://nodejs.org/en/
+- path `/usr/local/bin/node`
 - run `node -v` to verify node installation
 - run `npm -v` to verify nmp installation
 
