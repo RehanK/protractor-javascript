@@ -36,6 +36,12 @@ Test Successfully ran!
 1. To run element explorer `protractor --elementExplorer`
 2. `browser.get('http://www.way2automation.com/protractor-angularjs-practice-website.html')`
 
+###Elementor - is a Node.js application. Install it through npm:
+1. npm install elementor -g
+2. make sure Protector, chrome driver, and selenium server are installed
+3. run elementor: `elementor "http://www.jetblue.com/#/"`
+4. duplicate chrome tab -> open developer tools -> Protractor
+
 ###Browser driver
 1. IE Driver `webdriver-manager update --ie`
 
