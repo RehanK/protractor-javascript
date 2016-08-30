@@ -10,14 +10,9 @@ multiCapabilities: [{
   'browserName': 'firefox'
 }],
 
-  // Spec patterns are relative to the location of the spec file. They may
-  // include glob patterns.
-  //execute test by 'protractor conf.js --suite homepage'
-  suites: {
-    homepage: 'tests/e2e/homepage/**/*Spec.js',
-    search: ['tests/e2e/contact_search/**/*Spec.js',
-      'tests/e2e/venue_search/**/*Spec.js']
-  },
+  // Spec patterns are relative to the current working directory when
+  // protractor is called.
+  specs: ['../tests/loginTest.js'],
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
