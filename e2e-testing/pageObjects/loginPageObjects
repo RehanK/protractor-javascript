@@ -1,0 +1,49 @@
+'use strict';
+
+var upWorkLogin = function() {
+
+    this.get = function() {
+        browser.get('https://www.upwork.com/ab/account-security/login');
+    };
+
+    this.emailValue = function(value) {
+        element(by.id('login_username')).sendKeys(value);
+    };
+
+    this.passwordValue = function(value) {
+        element(by.model('password')).sendKeys(value);
+    };
+
+    this.clickSignIn = function() {
+        element(by.css('Log In'));
+    };
+
+    this.rememberEmail = function() {
+        element(by.css('remembermeCheckbox'));
+    };
+
+    this.forgotPassword = function() {
+        element(by.css('a[href="https://trueblue.jetblue.com/web/trueblue/forgot-password"]'));
+    };
+
+    this.flight = function() {
+        element(by.css('piejs ng-binding checked'));
+    };
+
+    this.checkIn = function() {
+        element(by.css("checkin")).click();
+    }
+
+
+    // this.question = element(by.model('question.text'));
+    // this.answer = element(by.binding('answer'));
+    // this.button = element(by.className('question-button'));
+
+    // this.ask = function(question) {
+    //     this.question.sendKeys(question);
+    //     this.button.click();
+    // };
+
+};
+
+module.exports = upWorkLogin;
