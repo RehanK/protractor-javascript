@@ -8,6 +8,9 @@ describe('upWorkLogin page - ', function () {
         page = new upWorkLogin();
     });
 
+    afterEach(function() {
+       
+    });
 
     it('should be able to login', function() {
     	page.get();
