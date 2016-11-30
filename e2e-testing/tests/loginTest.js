@@ -8,7 +8,7 @@ describe('upWorkLogin page - ', function () {
         page = new upWorkLogin();
     });
 
-    afterEach(function() {
+    afterEach(function() { 
        
     });
 
