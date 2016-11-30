@@ -1,5 +1,5 @@
 # Protractor-Javascript
-Protractor is a node.js program that acts as a webdriver which is used to write end to end tests, test that is written in Javascript to simulate user stories on a web browser 
+Protractor is a node.js program that acts as a webdriver which is used to write end to end tests, test that is written in Javascript to simulate user stories on a web browser
 
 ###Pre-requisites for Protractor 
 
