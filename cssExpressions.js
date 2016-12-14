@@ -1,10 +1,14 @@
 describe("testing the js site", function(){
 
   beforeEach(function() {
-    browser.get("http://www.thetestroom.com/jswebapp/");
+    var url = browser.get("http://www.thetestroom.com/jswebapp/");
   });
 
   it ("testing css expressions", function() {
+    
+      //assertion
+      expect(browser.getCurrentUrl()).toContain("/jswebapp");
+      expect(url).toEqual("http://www.thetestroom.com/jswebapp/");
       
       //css tag
       element(by.css("input")).sendKeys("Text Test");
